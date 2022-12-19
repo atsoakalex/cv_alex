@@ -310,9 +310,16 @@ p{
               }
               
             .box {
-                float: right;
-                width: 100%; /* remplit tout l'espace disponible dans la colonne */
-                height: auto; /* ajuste la hauteur de la photo en fonction de sa largeur */
+                position: relative;
+                background: url(./image/prof.png);
+                margin-top: 30%;
+                left: 230%;
+                transform: translate(-50%, -50%);
+                width: 300px;
+                height: 425px;
+                border-radius: 15px;
+                
+              }
               }
             .photo {
                 position: absolute;
@@ -331,6 +338,7 @@ p{
                 line-height: 1.5; /* augmente l'espacement entre les lignes */
               }
             }
+      
               
           
           
